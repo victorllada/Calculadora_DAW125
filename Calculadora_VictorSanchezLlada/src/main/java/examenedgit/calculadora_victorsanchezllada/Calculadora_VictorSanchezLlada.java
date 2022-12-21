@@ -36,19 +36,19 @@ public class Calculadora_VictorSanchezLlada {
                 switch (opcion) {
                     case 1 -> {
                         pideNumeros();
-                        System.out.println(numero1 + " + " + numero2 + " = " + (numero1 + numero2));
+                        System.out.println("La suma es: "+ numero1 + " + " + numero2 + " = " + (numero1 + numero2));
                     }
                     case 2 -> {
                         pideNumeros();
-                        System.out.println(numero1 + " - " + numero2 + " = " + (numero1 - numero2));
+                        System.out.println("La resta es: " + numero1 + " - " + numero2 + " = " + (numero1 - numero2));
                     }
                     case 3 -> {
                         pideNumeros();
-                        System.out.println(numero1 + " * " + numero2 + " = " + (numero1 * numero2));
+                        System.out.println("La multiplicación es: " + numero1 + " * " + numero2 + " = " + (numero1 * numero2));
                     }
                     case 4 -> {
                         pideNumeros();
-                        System.out.println(numero1 + " / " + numero2 + " = " + (numero1 / numero2));
+                        System.out.println("La división es: " + numero1 + " / " + numero2 + " = " + (numero1 / numero2));
                     }
                     case 0 -> System.out.println("Saliendo...");
                     default -> System.out.println("Opción no disponible");
